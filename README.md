@@ -1,6 +1,6 @@
 ## HTMLPurifier Bundle for Laravel
 
-You must then autoload the bundle in bundles.php:
+You must autoload the bundle in bundles.php:
 
     return array(
         'purifier' => array('auto'=>true)
