@@ -33,11 +33,11 @@ class Purifier {
                 {
                     // Load the all of HTML Purifier right now.
                     // This increases performance with a slight hit to memory usage.
-                    require 'library/HTMLPurifier.includes.php';
+                    require dirname(__FILE__) . 'library/HTMLPurifier.includes.php';
                 }
 
                 // Load the HTML Purifier auto loader
-                require 'library/HTMLPurifier.auto.php';
+                require dirname(__FILE__) . 'library/HTMLPurifier.auto.php';
             }
 
             // Create a new configuration object
